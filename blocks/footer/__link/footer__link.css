@@ -6,3 +6,7 @@
   color: #ffffff;
   margin-right: 18px;
 }
+
+.footer__link:hover {
+  color: #dadada;
+}
