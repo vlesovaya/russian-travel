@@ -3,5 +3,6 @@
   grid-template-rows: repeat(1, auto);
   gap: 92px;
   max-width: calc(100% - 48px * 2);
+
 }
 
