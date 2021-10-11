@@ -1,8 +1,12 @@
 .content {
   display: grid;
-  grid-template-rows: repeat(1, auto);
   gap: 92px;
-  max-width: calc(100% - 48px * 2);
-
+  grid-template-areas:
+    "lead"
+    "intro"
+    "photo-grid"
+    "places";
+  box-sizing: border-box;
+  justify-content: center;
 }
 

@@ -4,4 +4,7 @@
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(3, 1fr);
   gap: 16px;
+  grid-area: photo-grid;
+  padding: 0 48px;
+  margin: 0 auto;
 }

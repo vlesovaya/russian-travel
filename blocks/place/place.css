@@ -1,7 +1,11 @@
 .place {
   display: grid;
-  grid-template-columns: 460px 484px;
-  grid-template-rows: repeat(2, auto);
+  grid-template-areas:
+   "place__title place__website"
+   "place__image place__text"
+   "place__image place__text";
+  grid-template-columns: fit-content(460px);
+  grid-template-rows: repeat(2, min-content);
   column-gap: 40px;
   row-gap: 48px;
   margin-bottom: 80px;
