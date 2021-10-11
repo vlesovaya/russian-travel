@@ -1,7 +1,7 @@
 .page {
-  max-width: 100vw;
+  max-width: 1184px;
+  margin: 0 auto;
   color: #fff;
   padding-top: 26px;
   padding-bottom: 24px;
-  margin: 0 auto;
 }
