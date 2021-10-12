@@ -4,3 +4,24 @@
   padding: 0 148px;
   grid-area: lead;
 }
+
+@media screen and (max-width: 1024px) {
+  .lead {
+    max-width: 928px;
+    padding: 0 48px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .lead {
+    max-width: 768px;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .lead {
+    max-width: 320px;
+  }
+}
+
