@@ -1,6 +1,7 @@
 .lead {
-  max-width: 984px;
-  margin: 0 auto;
+  /*max-width: 984px;*/
+  /*max-width: 100%;*/
+  /*margin: 0 auto;*/
   padding: 0 148px;
   grid-area: lead;
 }
@@ -12,16 +13,8 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 780px) {
   .lead {
-    max-width: 768px;
     padding: 0;
   }
 }
-
-@media screen and (max-width: 320px) {
-  .lead {
-    max-width: 320px;
-  }
-}
-

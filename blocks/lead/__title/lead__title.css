@@ -5,14 +5,28 @@
   font-weight: 900;
   margin: 0 auto 32px;
   text-align: center;
-  -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-  -moz-text-size-adjust: 100%;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 750px) {
   .lead__title {
+    padding: 0 24px;
+    font-size: 60px;
+    line-height: 66px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .lead__title {
+    font-size: 50px;
+    line-height: 55px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .lead__title {
+    max-width: 320px;
     font-size: 40px;
     line-height: 44px;
+    padding: 0 16px;
   }
 }
