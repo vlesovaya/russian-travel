@@ -1,7 +1,4 @@
 .lead {
-  /*max-width: 984px;*/
-  /*max-width: 100%;*/
-  /*margin: 0 auto;*/
   padding: 0 148px;
   grid-area: lead;
 }

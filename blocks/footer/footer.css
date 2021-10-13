@@ -1,7 +1,6 @@
 .footer {
   display: flex;
   justify-content: space-between;
-  /*max-width: 1184px;*/
   padding: 0 48px;
   align-items: baseline;
 }
@@ -19,10 +18,3 @@
     padding: 0 16px;
   }
 }
-
-/*@media screen and (max-width: 425px) {*/
-/*  .footer {*/
-/*    font-size: 32px;*/
-/*    line-height: 35px;*/
-/*  }*/
-/*}*/
