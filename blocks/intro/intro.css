@@ -4,13 +4,13 @@
   align-self: start;
 }
 
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1024px) {
   .intro {
     padding: 0 48px;
   }
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px) {
   .intro {
     padding: 0 24px;
   }

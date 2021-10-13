@@ -9,12 +9,12 @@
   align-self: end;
 }
 
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1024px) {
   .place__title {
   }
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px) {
   .place__title {
     max-width: 320px;
     font-size: 42px;
@@ -22,14 +22,14 @@
   }
 }
 
-@media screen and (max-width: 635px){
+@media screen and (max-width: 635px) {
   .place__title {
     max-width: 100%;
-    padding-left: 16px;
+    padding: 0 16px;
   }
 }
 
-@media screen and (max-width: 425px){
+@media screen and (max-width: 425px) {
   .place__title {
     font-size: 32px;
     line-height: 35px;

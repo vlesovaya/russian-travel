@@ -10,13 +10,13 @@
   box-sizing: border-box;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px) {
   .content {
     gap: 88px;
   }
 }
 
-@media screen and (max-width: 320px){
+@media screen and (max-width: 320px) {
   .content {
     gap: 64px;
   }

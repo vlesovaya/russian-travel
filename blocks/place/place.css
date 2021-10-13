@@ -15,20 +15,20 @@
   margin-bottom: 0;
 }
 
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1024px) {
   .place {
     column-gap: 32px;
     row-gap: 48px;
   }
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px) {
   .place {
     margin-bottom: 73px;
   }
 }
 
-@media screen and (max-width: 635px){
+@media screen and (max-width: 635px) {
   .place {
     grid-template-areas:
    "place__title" "place__website"

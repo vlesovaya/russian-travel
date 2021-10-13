@@ -10,20 +10,20 @@
   box-sizing: border-box;
 }
 
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1024px) {
   .photo-grid {
     gap: 14px;
   }
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px) {
   .photo-grid {
     gap: 16px;
     padding: 0 24px;
   }
 }
 
-@media screen and (max-width: 425px){
+@media screen and (max-width: 425px) {
   .photo-grid {
     gap: 12px;
     padding: 0 16px;
