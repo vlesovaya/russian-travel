@@ -28,14 +28,14 @@
   }
 }
 
-@media screen and (max-width: 320px){
+@media screen and (max-width: 635px){
   .place {
-    max-width: 320px;
     grid-template-areas:
    "place__title" "place__website"
    "place__image" "place__text";
     column-gap: 0;
     row-gap: 32px;
     margin-bottom: 50px;
+    justify-content: center;
   }
 }
