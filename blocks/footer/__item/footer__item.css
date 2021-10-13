@@ -1,3 +1,9 @@
-.footer__item {
+@media screen and (max-width: 768px) {
+  .footer__item {
+    margin-bottom: 32px;
+  }
 
+  .footer__item:last-child {
+    margin-bottom: 0;
+  }
 }
