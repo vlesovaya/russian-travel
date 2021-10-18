@@ -5,9 +5,11 @@
   text-decoration: none;
   border-bottom: 1px #dadada solid;
   color: #fff;
+  opacity: 1;
+  transition: opacity 1s ease-in;
 }
 
 .place__link:hover {
-  color: #DADADA;
+  /*color: #DADADA;*/
   opacity: 0.8;
 }

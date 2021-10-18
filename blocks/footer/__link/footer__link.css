@@ -5,10 +5,11 @@
   text-decoration: none;
   color: #ffffff;
   margin-right: 18px;
+  opacity: 1;
+  transition: opacity 1s ease-in;
 }
 
 .footer__link:hover {
-  color: #dadada;
   opacity: 0.8;
 }
 
